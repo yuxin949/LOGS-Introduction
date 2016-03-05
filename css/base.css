@@ -1,0 +1,94 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+body a:hover {
+  text-decoration: none;
+}
+.nav-container {
+  width: 100%;
+  color: #404041;
+  position: absolute;
+  background-color: transparent;
+  height: 60px;
+  margin-top: 63px;
+  margin-left: 160px;
+  z-index: 4;
+}
+.nav-container .nav-logo {
+  font-size: 35px;
+  display: inline-block;
+}
+.nav-container .nav-bar {
+  display: inline-block;
+  float: right;
+  margin-right: 300px;
+  height: 60px;
+}
+.nav-container .nav-bar .anchor {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 30px;
+  color: #636363;
+  font-size: 17px;
+  cursor: pointer;
+}
+.nav-container .nav-bar .anchor:hover {
+  color: #404041;
+}
+#banner {
+  height: 600px;
+  background: url('../images/mountain.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -200px;
+  box-sizing: border-box;
+  padding-top: 200px;
+  position: relative;
+  z-index: 2;
+}
+#banner .banner-sub-container {
+  position: relative;
+  z-index: 4;
+}
+#banner .banner-sub-container .banner-main-title {
+  text-align: center;
+  font-size: 50px;
+}
+#banner .banner-sub-container .banner-sub-title {
+  margin-top: 10px;
+  text-align: center;
+  color: #737070;
+}
+#banner .banner-sub-container .banner-button {
+  display: block;
+  background: #0088CB;
+  width: 200px;
+  height: 45px;
+  color: white;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+#banner .banner-sub-container .banner-button:hover {
+  background-color: #0c82bd;
+}
+.intro-container {
+  height: 600px;
+  border: 1px solid black;
+}
+.intro-container .intro-sub-container {
+  margin: 0 auto;
+  width: 1140px;
+  height: 600px;
+}
